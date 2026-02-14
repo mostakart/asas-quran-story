@@ -1,0 +1,21 @@
+{
+  "name": "asas-quran-story",
+  "version": "1.0.0",
+  "description": "CLI tool to fetch Quran ayah text and Egyptian reciter audio URL for Instagram story automation",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "tsx --test test/ayah-parser.test.ts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
